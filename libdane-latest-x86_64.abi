@@ -7,7 +7,6 @@
     <dependency name='libtss2-tctildr.so.0'/>
     <dependency name='libidn2.so.0'/>
     <dependency name='libunistring.so.2'/>
-    <dependency name='libdl.so.2'/>
     <dependency name='libtasn1.so.6'/>
     <dependency name='libnettle.so.8'/>
     <dependency name='libhogweed.so.6'/>
@@ -3597,9 +3596,10 @@
       <parameter type-id='type-id-2' name='flags'/>
       <return type-id='type-id-10'/>
     </function-decl>
-    <function-decl name='dgettext' visibility='default' binding='global' size-in-bits='64'>
+    <function-decl name='dcgettext' visibility='default' binding='global' size-in-bits='64'>
       <parameter type-id='type-id-8'/>
       <parameter type-id='type-id-8'/>
+      <parameter type-id='type-id-10'/>
       <return type-id='type-id-9'/>
     </function-decl>
     <function-decl name='snprintf' visibility='default' binding='global' size-in-bits='64'>
