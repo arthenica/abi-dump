@@ -35,7 +35,7 @@
     <elf-symbol name='dane_verify_crt_raw' version='DANE_0_0' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
     <elf-symbol name='dane_verify_session_crt' version='DANE_0_0' is-default-version='yes' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes'/>
   </elf-function-symbols>
-  <abi-instr address-size='64' path='asnprintf.c' comp-dir-path='/home/zfridric/upstream/gnutls/gl' language='LANG_C11'>
+  <abi-instr address-size='64' path='asnprintf.c' comp-dir-path='/home/zfridric/gnutls/gl' language='LANG_C11'>
     <class-decl name='__va_list_tag' size-in-bits='192' is-struct='yes' visibility='default' id='type-id-1'>
       <data-member access='public' layout-offset-in-bits='0'>
         <var-decl name='gp_offset' type-id='type-id-2' visibility='default'/>
@@ -60,13 +60,13 @@
       <return type-id='type-id-9'/>
     </function-decl>
   </abi-instr>
-  <abi-instr address-size='64' path='basename-lgpl.c' comp-dir-path='/home/zfridric/upstream/gnutls/gl' language='LANG_C11'>
+  <abi-instr address-size='64' path='basename-lgpl.c' comp-dir-path='/home/zfridric/gnutls/gl' language='LANG_C11'>
     <function-decl name='strlen' visibility='default' binding='global' size-in-bits='64'>
       <parameter type-id='type-id-8'/>
       <return type-id='type-id-5'/>
     </function-decl>
   </abi-instr>
-  <abi-instr address-size='64' path='cloexec.c' comp-dir-path='/home/zfridric/upstream/gnutls/gl' language='LANG_C11'>
+  <abi-instr address-size='64' path='cloexec.c' comp-dir-path='/home/zfridric/gnutls/gl' language='LANG_C11'>
     <function-decl name='rpl_fcntl' visibility='default' binding='global' size-in-bits='64'>
       <parameter type-id='type-id-10'/>
       <parameter type-id='type-id-10'/>
@@ -74,7 +74,7 @@
       <return type-id='type-id-10'/>
     </function-decl>
   </abi-instr>
-  <abi-instr address-size='64' path='dirname-lgpl.c' comp-dir-path='/home/zfridric/upstream/gnutls/gl' language='LANG_C11'>
+  <abi-instr address-size='64' path='dirname-lgpl.c' comp-dir-path='/home/zfridric/gnutls/gl' language='LANG_C11'>
     <function-decl name='last_component' visibility='default' binding='global' size-in-bits='64'>
       <parameter type-id='type-id-8'/>
       <return type-id='type-id-9'/>
@@ -84,7 +84,7 @@
       <return type-id='type-id-3'/>
     </function-decl>
   </abi-instr>
-  <abi-instr address-size='64' path='fcntl.c' comp-dir-path='/home/zfridric/upstream/gnutls/gl' language='LANG_C11'>
+  <abi-instr address-size='64' path='fcntl.c' comp-dir-path='/home/zfridric/gnutls/gl' language='LANG_C11'>
     <function-decl name='fcntl' visibility='default' binding='global' size-in-bits='64'>
       <parameter type-id='type-id-10'/>
       <parameter type-id='type-id-10'/>
@@ -96,7 +96,7 @@
       <return type-id='type-id-10'/>
     </function-decl>
   </abi-instr>
-  <abi-instr address-size='64' path='glthread/lock.c' comp-dir-path='/home/zfridric/upstream/gnutls/gl' language='LANG_C11'>
+  <abi-instr address-size='64' path='glthread/lock.c' comp-dir-path='/home/zfridric/gnutls/gl' language='LANG_C11'>
     <array-type-def dimensions='1' type-id='type-id-11' size-in-bits='320' id='type-id-12'>
       <subrange length='40' type-id='type-id-13' id='type-id-14'/>
     </array-type-def>
@@ -276,7 +276,7 @@
     </function-decl>
     <type-decl name='unsigned long int' size-in-bits='64' id='type-id-13'/>
   </abi-instr>
-  <abi-instr address-size='64' path='hash.c' comp-dir-path='/home/zfridric/upstream/gnutls/gl' language='LANG_C11'>
+  <abi-instr address-size='64' path='hash.c' comp-dir-path='/home/zfridric/gnutls/gl' language='LANG_C11'>
     <array-type-def dimensions='1' type-id='type-id-11' size-in-bits='8' id='type-id-50'>
       <subrange length='1' type-id='type-id-13' id='type-id-51'/>
     </array-type-def>
@@ -402,7 +402,7 @@
     </function-decl>
     <type-decl name='unsigned short int' size-in-bits='16' id='type-id-65'/>
   </abi-instr>
-  <abi-instr address-size='64' path='read-file.c' comp-dir-path='/home/zfridric/upstream/gnutls/gl' language='LANG_C11'>
+  <abi-instr address-size='64' path='read-file.c' comp-dir-path='/home/zfridric/gnutls/gl' language='LANG_C11'>
     <array-type-def dimensions='1' type-id='type-id-72' size-in-bits='192' id='type-id-73'>
       <subrange length='3' type-id='type-id-13' id='type-id-74'/>
     </array-type-def>
@@ -518,13 +518,13 @@
       <return type-id='type-id-10'/>
     </function-decl>
   </abi-instr>
-  <abi-instr address-size='64' path='stripslash.c' comp-dir-path='/home/zfridric/upstream/gnutls/gl' language='LANG_C11'>
+  <abi-instr address-size='64' path='stripslash.c' comp-dir-path='/home/zfridric/gnutls/gl' language='LANG_C11'>
     <function-decl name='base_len' visibility='default' binding='global' size-in-bits='64'>
       <parameter type-id='type-id-8'/>
       <return type-id='type-id-5'/>
     </function-decl>
   </abi-instr>
-  <abi-instr address-size='64' path='vasnprintf.c' comp-dir-path='/home/zfridric/upstream/gnutls/gl' language='LANG_C11'>
+  <abi-instr address-size='64' path='vasnprintf.c' comp-dir-path='/home/zfridric/gnutls/gl' language='LANG_C11'>
     <array-type-def dimensions='1' type-id='type-id-88' size-in-bits='1792' id='type-id-89'>
       <subrange length='7' type-id='type-id-13' id='type-id-23'/>
     </array-type-def>
@@ -733,7 +733,7 @@
       <return type-id='type-id-10'/>
     </function-decl>
   </abi-instr>
-  <abi-instr address-size='64' path='dane-params.c' comp-dir-path='/home/zfridric/upstream/gnutls/libdane' language='LANG_C11'>
+  <abi-instr address-size='64' path='dane-params.c' comp-dir-path='/home/zfridric/gnutls/libdane' language='LANG_C11'>
     <function-decl name='dane_cert_type_name' mangled-name='dane_cert_type_name' visibility='default' binding='global' size-in-bits='64' elf-symbol-id='dane_cert_type_name@@DANE_0_0'>
       <parameter type-id='type-id-119' name='type'/>
       <return type-id='type-id-8'/>
@@ -747,7 +747,7 @@
       <return type-id='type-id-8'/>
     </function-decl>
   </abi-instr>
-  <abi-instr address-size='64' path='dane.c' comp-dir-path='/home/zfridric/upstream/gnutls/libdane' language='LANG_C11'>
+  <abi-instr address-size='64' path='dane.c' comp-dir-path='/home/zfridric/gnutls/libdane' language='LANG_C11'>
     <array-type-def dimensions='1' type-id='type-id-122' size-in-bits='12288' id='type-id-123'>
       <subrange length='64' type-id='type-id-13' id='type-id-124'/>
     </array-type-def>
@@ -1866,7 +1866,7 @@
       </data-member>
     </class-decl>
     <typedef-decl name='tfo_st' type-id='type-id-285' id='type-id-288'/>
-    <class-decl name='internals_st' size-in-bits='33344' is-struct='yes' naming-typedef-id='type-id-289' visibility='default' id='type-id-290'>
+    <class-decl name='internals_st' size-in-bits='33408' is-struct='yes' naming-typedef-id='type-id-289' visibility='default' id='type-id-290'>
       <data-member access='public' layout-offset-in-bits='0'>
         <var-decl name='record_buffer' type-id='type-id-212' visibility='default'/>
       </data-member>
@@ -2255,63 +2255,66 @@
         <var-decl name='saved_username' type-id='type-id-9' visibility='default'/>
       </data-member>
       <data-member access='public' layout-offset-in-bits='15808'>
+        <var-decl name='saved_username_size' type-id='type-id-10' visibility='default'/>
+      </data-member>
+      <data-member access='public' layout-offset-in-bits='15872'>
         <var-decl name='tfo' type-id='type-id-288' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='17024'>
+      <data-member access='public' layout-offset-in-bits='17088'>
         <var-decl name='rsup' type-id='type-id-318' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='17088'>
+      <data-member access='public' layout-offset-in-bits='17152'>
         <var-decl name='rsup_size' type-id='type-id-2' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='17152'>
+      <data-member access='public' layout-offset-in-bits='17216'>
         <var-decl name='rexts' type-id='type-id-319' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='17216'>
+      <data-member access='public' layout-offset-in-bits='17280'>
         <var-decl name='rexts_size' type-id='type-id-2' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='17280'>
+      <data-member access='public' layout-offset-in-bits='17344'>
         <var-decl name='ext_data' type-id='type-id-123' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='29568'>
+      <data-member access='public' layout-offset-in-bits='29632'>
         <var-decl name='used_exts' type-id='type-id-209' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='29632'>
+      <data-member access='public' layout-offset-in-bits='29696'>
         <var-decl name='ext_msg' type-id='type-id-320' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='29664'>
+      <data-member access='public' layout-offset-in-bits='29728'>
         <var-decl name='max_recv_size' type-id='type-id-2' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='29696'>
+      <data-member access='public' layout-offset-in-bits='29760'>
         <var-decl name='cand_ec_group' type-id='type-id-146' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='29760'>
+      <data-member access='public' layout-offset-in-bits='29824'>
         <var-decl name='cand_dh_group' type-id='type-id-146' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='29824'>
+      <data-member access='public' layout-offset-in-bits='29888'>
         <var-decl name='cand_group' type-id='type-id-146' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='29888'>
+      <data-member access='public' layout-offset-in-bits='29952'>
         <var-decl name='hrr_cs' type-id='type-id-171' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='29920'>
+      <data-member access='public' layout-offset-in-bits='29984'>
         <var-decl name='session_ticket_renew' type-id='type-id-10' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='29952'>
+      <data-member access='public' layout-offset-in-bits='30016'>
         <var-decl name='tls13_ticket' type-id='type-id-281' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='33088'>
+      <data-member access='public' layout-offset-in-bits='33152'>
         <var-decl name='early_data_received' type-id='type-id-204' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='33152'>
+      <data-member access='public' layout-offset-in-bits='33216'>
         <var-decl name='anti_replay' type-id='type-id-321' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='33216'>
+      <data-member access='public' layout-offset-in-bits='33280'>
         <var-decl name='epoch_lock' type-id='type-id-3' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='33280'>
+      <data-member access='public' layout-offset-in-bits='33344'>
         <var-decl name='ktls_enabled' type-id='type-id-10' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='33312'>
+      <data-member access='public' layout-offset-in-bits='33376'>
         <var-decl name='compress_certificate_method' type-id='type-id-322' visibility='default'/>
       </data-member>
     </class-decl>
@@ -2330,7 +2333,7 @@
       </data-member>
     </class-decl>
     <typedef-decl name='internals_st' type-id='type-id-290' id='type-id-289'/>
-    <class-decl name='gnutls_session_int' size-in-bits='58368' is-struct='yes' visibility='default' id='type-id-324'>
+    <class-decl name='gnutls_session_int' size-in-bits='58432' is-struct='yes' visibility='default' id='type-id-324'>
       <data-member access='public' layout-offset-in-bits='0'>
         <var-decl name='security_parameters' type-id='type-id-256' visibility='default'/>
       </data-member>
@@ -2340,7 +2343,7 @@
       <data-member access='public' layout-offset-in-bits='2304'>
         <var-decl name='internals' type-id='type-id-289' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='35648'>
+      <data-member access='public' layout-offset-in-bits='35712'>
         <var-decl name='key' type-id='type-id-230' visibility='default'/>
       </data-member>
     </class-decl>
@@ -3860,7 +3863,7 @@
       <return type-id='type-id-3'/>
     </function-type>
   </abi-instr>
-  <abi-instr address-size='64' path='errors.c' comp-dir-path='/home/zfridric/upstream/gnutls/libdane' language='LANG_C11'>
+  <abi-instr address-size='64' path='errors.c' comp-dir-path='/home/zfridric/gnutls/libdane' language='LANG_C11'>
     <function-decl name='dane_strerror' mangled-name='dane_strerror' visibility='default' binding='global' size-in-bits='64' elf-symbol-id='dane_strerror@@DANE_0_0'>
       <parameter type-id='type-id-10' name='error'/>
       <return type-id='type-id-8'/>
