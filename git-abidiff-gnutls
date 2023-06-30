@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Copyright (c) 2023 Daiki Ueno
+# License: GPLv3+ <http://gnu.org/licenses/gpl.html>
+
 # This is a diff driver that works on the .abi files during GnuTLS
 # development.  To use, copy this file to ~/.local/bin and issue the
 # following command to update your git configuration:

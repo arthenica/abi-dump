@@ -1,0 +1,8 @@
+# License
+
+The .abi files are auto-generated from the the GnuTLS library using
+the `abidw` tool and thus are distributed under the same license, that
+is the GNU Lesser General Public License (LGPL) version 2.1 or later.
+
+The `git-abidiff-gnutls` script is distributed under the GNU General
+Public License version 3 or later.
