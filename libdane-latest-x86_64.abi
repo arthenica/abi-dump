@@ -1,13 +1,6 @@
 <abi-corpus version='3.0' architecture='elf-amd-x86_64' soname='libgnutls-dane.so.0' tracking-non-reachable-types='yes'>
   <elf-needed>
     <dependency name='libgnutls.so.30'/>
-    <dependency name='libp11-kit.so.0'/>
-    <dependency name='libidn2.so.0'/>
-    <dependency name='libunistring.so.5'/>
-    <dependency name='libtasn1.so.6'/>
-    <dependency name='libhogweed.so.6'/>
-    <dependency name='libnettle.so.8'/>
-    <dependency name='libgmp.so.10'/>
     <dependency name='libunbound.so.8'/>
     <dependency name='libc.so.6'/>
   </elf-needed>
@@ -1445,7 +1438,7 @@
     </class-decl>
     <class-decl name='gnutls_privkey_st' is-struct='yes' visibility='default' is-declaration-only='yes' hash='9e7d54ce1a02b218' id='type-id-215'/>
     <class-decl name='gnutls_pubkey_st' is-struct='yes' visibility='default' is-declaration-only='yes' hash='0c37cf8d74066284' id='type-id-217'/>
-    <class-decl name='gnutls_session_int' is-struct='yes' visibility='default' size-in-bits='67072' hash='b7ea644ffa4f3ec3' id='type-id-219'>
+    <class-decl name='gnutls_session_int' is-struct='yes' visibility='default' size-in-bits='67008' hash='e6987d6a952be1b1' id='type-id-219'>
       <data-member access='public' layout-offset-in-bits='0'>
         <var-decl name='security_parameters' type-id='type-id-296' visibility='default'/>
       </data-member>
@@ -1455,7 +1448,7 @@
       <data-member access='public' layout-offset-in-bits='3072'>
         <var-decl name='internals' type-id='type-id-297' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='38592'>
+      <data-member access='public' layout-offset-in-bits='38528'>
         <var-decl name='key' type-id='type-id-298' visibility='default'/>
       </data-member>
     </class-decl>
@@ -2180,7 +2173,7 @@
         <var-decl name='size' type-id='type-id-75' visibility='default'/>
       </data-member>
     </class-decl>
-    <class-decl name='__anonymous_struct__' is-struct='yes' visibility='default' size-in-bits='35520' is-anonymous='yes' hash='f3c744af97270273' id='type-id-353'>
+    <class-decl name='__anonymous_struct__' is-struct='yes' visibility='default' size-in-bits='35456' is-anonymous='yes' hash='b7e848d5c936b1d1' id='type-id-353'>
       <data-member access='public' layout-offset-in-bits='0'>
         <var-decl name='record_buffer' type-id='type-id-354' visibility='default'/>
       </data-member>
@@ -2613,25 +2606,25 @@
       <data-member access='public' layout-offset-in-bits='30016'>
         <var-decl name='tls13_ticket' type-id='type-id-384' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='33152'>
+      <data-member access='public' layout-offset-in-bits='33088'>
         <var-decl name='early_data_received' type-id='type-id-345' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='33216'>
+      <data-member access='public' layout-offset-in-bits='33152'>
         <var-decl name='anti_replay' type-id='type-id-385' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='33280'>
+      <data-member access='public' layout-offset-in-bits='33216'>
         <var-decl name='epoch_lock' type-id='type-id-144' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='33344'>
+      <data-member access='public' layout-offset-in-bits='33280'>
         <var-decl name='ktls_enabled' type-id='type-id-58' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='33376'>
+      <data-member access='public' layout-offset-in-bits='33312'>
         <var-decl name='compress_certificate_method' type-id='type-id-386' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='33408'>
+      <data-member access='public' layout-offset-in-bits='33344'>
         <var-decl name='client_hello_exts' type-id='type-id-136' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='35456'>
+      <data-member access='public' layout-offset-in-bits='35392'>
         <var-decl name='client_hello_exts_set' type-id='type-id-24' visibility='default'/>
       </data-member>
     </class-decl>
@@ -2646,7 +2639,7 @@
         <var-decl name='srp' type-id='type-id-327' visibility='default'/>
       </data-member>
     </class-decl>
-    <class-decl name='__anonymous_struct__' is-struct='yes' visibility='default' size-in-bits='3136' is-anonymous='yes' hash='82e344784a44ca3b' id='type-id-388'>
+    <class-decl name='__anonymous_struct__' is-struct='yes' visibility='default' size-in-bits='3072' is-anonymous='yes' hash='01c14537bffcdbc8' id='type-id-388'>
       <data-member access='public' layout-offset-in-bits='0'>
         <var-decl name='arrival_time' type-id='type-id-318' visibility='default'/>
       </data-member>
@@ -2662,16 +2655,16 @@
       <data-member access='public' layout-offset-in-bits='320'>
         <var-decl name='nonce' type-id='type-id-389' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='2368'>
-        <var-decl name='nonce_size' type-id='type-id-170' visibility='default'/>
+      <data-member access='public' layout-offset-in-bits='2360'>
+        <var-decl name='nonce_size' type-id='type-id-72' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='2432'>
+      <data-member access='public' layout-offset-in-bits='2368'>
         <var-decl name='prf' type-id='type-id-66' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='2496'>
+      <data-member access='public' layout-offset-in-bits='2432'>
         <var-decl name='resumption_master_secret' type-id='type-id-282' visibility='default'/>
       </data-member>
-      <data-member access='public' layout-offset-in-bits='3008'>
+      <data-member access='public' layout-offset-in-bits='2944'>
         <var-decl name='ticket' type-id='type-id-47' visibility='default'/>
       </data-member>
     </class-decl>
@@ -2974,7 +2967,7 @@
     <typedef-decl name='hash_security_level_t' type-id='type-id-106' size-in-bits='32' alignment-in-bits='32' hash='48a80c1f3d863eac' id='type-id-301'/>
     <typedef-decl name='heartbeat_state_t' type-id='type-id-107' size-in-bits='32' alignment-in-bits='32' hash='70d4d40c2ffda087' id='type-id-380'/>
     <typedef-decl name='int16_t' type-id='type-id-409' size-in-bits='16' hash='bfcf8c53a7e22b05' id='type-id-371'/>
-    <typedef-decl name='internals_st' type-id='type-id-353' size-in-bits='35520' hash='11d7d193c79ac937' id='type-id-297'/>
+    <typedef-decl name='internals_st' type-id='type-id-353' size-in-bits='35456' hash='15478693a63ccd6d' id='type-id-297'/>
     <typedef-decl name='mac_entry_st' type-id='type-id-61' size-in-bits='448' hash='f39013d4c0861cf3' id='type-id-63'/>
     <typedef-decl name='mac_hd_st' type-id='type-id-337' size-in-bits='576' hash='5a51f1dbdd587e15' id='type-id-425'/>
     <typedef-decl name='mbuffer_head_st' type-id='type-id-305' size-in-bits='256' hash='32063bb187b1d262' id='type-id-354'/>
@@ -2999,7 +2992,7 @@
     <typedef-decl name='ssize_t' type-id='type-id-411' size-in-bits='64' hash='567f7af3a2d00f27' id='type-id-189'/>
     <typedef-decl name='tfo_st' type-id='type-id-316' size-in-bits='1216' hash='754187d9e2e71133' id='type-id-382'/>
     <typedef-decl name='time_t' type-id='type-id-319' size-in-bits='64' hash='567f7af3a2d00f27' id='type-id-285'/>
-    <typedef-decl name='tls13_ticket_st' type-id='type-id-388' size-in-bits='3136' hash='a2f361240af95ae1' id='type-id-384'/>
+    <typedef-decl name='tls13_ticket_st' type-id='type-id-388' size-in-bits='3072' hash='62e06bc6de91e97c' id='type-id-384'/>
     <typedef-decl name='transport_t' type-id='type-id-112' size-in-bits='32' alignment-in-bits='32' hash='425ae54631c4f883' id='type-id-331'/>
     <typedef-decl name='uint16_t' type-id='type-id-413' size-in-bits='16' hash='012767b19cd3b7f4' id='type-id-267'/>
     <typedef-decl name='uint32_t' type-id='type-id-414' size-in-bits='32' hash='01b265816e53dd71' id='type-id-345'/>
@@ -3080,12 +3073,12 @@
     <pointer-type-def type-id='type-id-194' hash='19e246ce75ee6a42' id='type-id-144'/>
     <pointer-type-def type-id='type-id-199' size-in-bits='64' hash='8fb8704a3a6d94b1' id='type-id-422'/>
   </abi-types>
-  <abi-instr address-size='64' path='dane-params.c' comp-dir-path='/home/dueno/devel/gnutls/libdane' language='LANG_C11'>
+  <abi-instr address-size='64' path='dane-params.c' comp-dir-path='/gnutls' language='LANG_C11'>
       <function-decl name='dane_cert_type_name' type-id='type-id-137' mangled-name='dane_cert_type_name' visibility='default' binding='global' size-in-bits='64' elf-symbol-id='dane_cert_type_name@@DANE_0_0'/>
       <function-decl name='dane_cert_usage_name' type-id='type-id-138' mangled-name='dane_cert_usage_name' visibility='default' binding='global' size-in-bits='64' elf-symbol-id='dane_cert_usage_name@@DANE_0_0'/>
       <function-decl name='dane_match_type_name' type-id='type-id-139' mangled-name='dane_match_type_name' visibility='default' binding='global' size-in-bits='64' elf-symbol-id='dane_match_type_name@@DANE_0_0'/>
   </abi-instr>
-  <abi-instr address-size='64' path='dane.c' comp-dir-path='/home/dueno/devel/gnutls/libdane' language='LANG_C11'>
+  <abi-instr address-size='64' path='dane.c' comp-dir-path='/gnutls' language='LANG_C11'>
       <function-decl name='dane_query_status' type-id='type-id-141' mangled-name='dane_query_status' visibility='default' binding='global' size-in-bits='64' elf-symbol-id='dane_query_status@@DANE_0_0'/>
       <function-decl name='dane_query_data' type-id='type-id-149' mangled-name='dane_query_data' visibility='default' binding='global' size-in-bits='64' elf-symbol-id='dane_query_data@@DANE_0_0'/>
       <function-decl name='dane_query_tlsa' type-id='type-id-157' mangled-name='dane_query_tlsa' visibility='default' binding='global' size-in-bits='64' elf-symbol-id='dane_query_tlsa@@DANE_0_0'/>
@@ -3101,7 +3094,7 @@
       <function-decl name='dane_query_deinit' type-id='type-id-195' mangled-name='dane_query_deinit' visibility='default' binding='global' size-in-bits='64' elf-symbol-id='dane_query_deinit@@DANE_0_0'/>
       <function-decl name='dane_state_deinit' type-id='type-id-196' mangled-name='dane_state_deinit' visibility='default' binding='global' size-in-bits='64' elf-symbol-id='dane_state_deinit@@DANE_0_0'/>
   </abi-instr>
-  <abi-instr address-size='64' path='errors.c' comp-dir-path='/home/dueno/devel/gnutls/libdane' language='LANG_C11'>
+  <abi-instr address-size='64' path='errors.c' comp-dir-path='/gnutls' language='LANG_C11'>
       <function-decl name='dane_strerror' type-id='type-id-140' mangled-name='dane_strerror' visibility='default' binding='global' size-in-bits='64' elf-symbol-id='dane_strerror@@DANE_0_0'/>
   </abi-instr>
 </abi-corpus>
